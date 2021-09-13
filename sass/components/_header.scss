@@ -1,0 +1,114 @@
+.page-light {
+  background-color: $cream;
+}
+
+.nav {
+  display: flex;
+  padding: 23px 0px 26px 0px;
+  align-items: baseline;
+}
+.buyers {
+  display: flex;
+  margin: 16px 0px;
+
+  &__list {
+    margin-right: 45px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-decoration: none;
+    color: $text;
+  }
+
+  &__img {
+    margin: 0px 55px;
+  }
+}
+.purchase {
+  margin: 16px 0px;
+  display: flex;
+
+  &__list {
+    margin-left: 45px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-decoration: none;
+    color: $text;
+  }
+}
+/*секция распродажа */
+.product {
+  display: flex;
+}
+.sale {
+  &__text {
+    font-size: 30px;
+    font-weight: 400;
+    color: $text;
+    line-height: 1.2;
+    margin-bottom: 35px;
+  }
+
+  &__heading {
+    font-size: 55px;
+    font-weight: 700;
+    color: $text;
+    line-height: 1.2;
+    margin-bottom: 55px;
+  }
+}
+.btn {
+  &__link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: $white;
+    line-height: 1.2;
+    padding: 17px 30px;
+    background-color: $accent;
+    transition: 0.2s;
+  }
+  &__link:hover {
+    background-color: $white;
+    color: $black;
+  }
+}
+.shoes {
+  justify-content: space-between;
+  display: flex;
+  width: 556px;
+  height: 337px;
+  position: relative;
+  &__img {
+  }
+}
+.price {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  text-align: right;
+  &__one {
+    font-size: 24px;
+    font-weight: 700;
+    color: $black;
+    line-height: 1.2;
+    margin-bottom: 14px;
+  }
+
+  &__twoo {
+    font-size: 42px;
+    font-weight: 700;
+    color: $red;
+    line-height: 1.2;
+  }
+}
+.column {
+  flex-direction: column;
+}
