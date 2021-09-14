@@ -11,12 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <title>The Loop</title>
   </head>
   <body>
     <div class="page-light">
-      <div class="container">
-        <header>
+      <div>
+        <header class="container">
           <div class="nav">
             <ul class="buyers">
               <li class="buyers__list">
@@ -41,34 +44,91 @@
           </div>
 
           <div class="product">
-<div class="column">
-  <div class="sale">
-    <p class="sale__text">Зимняя распродажа</p>
-    <h1 class="sale__heading">СКИДКИ ДО 90%</h1>
-  </div>
+            <div class="column">
+              <div class="sale">
+                <p class="sale__text">Зимняя распродажа</p>
+                <h1 class="sale__heading">СКИДКИ ДО 90%</h1>
+              </div>
 
-  <div class="btn">
-    <a class="btn__link" href="#">СМОТРЕТЬ МОДЕЛИ</a>
-  </div>
-</div>
-        
-
-            <div class="shoes">
-              <img class="shoes__img" src="./img/png/running_shoes_PNG5823.png" alt="shoes" />
-              
-              <div class="price">
-                <strike class="price__one" >9 900 ₽</strike>
-                <p class="price__twoo">1 900 ₽</p>
+              <div class="btn">
+                <a class="btn__link" href="#">СМОТРЕТЬ МОДЕЛИ</a>
               </div>
             </div>
 
-          </div>
+            <div class="shoes">
+              <img
+                class="shoes__img"
+                src="./img/png/running_shoes_PNG5823.png"
+                alt="shoes"
+              />
 
+              <div class="price">
+                <strike class="price__one">9 900 ₽</strike>
+                <p class="price__twoo">1 900 ₽</p>
+              </div>
+            </div>
+          </div>
         </header>
       </div>
     </div>
+    <main>
+      <section class="delivery">
+        <div class="container">
+          <div class="sum">
+            <h2 class="sum__heading">БЕСПЛАТНАЯ ДОСТАВКА</h2>
+            <h2 class="sum__min">ОТ 3000₽</h2>
+          </div>
+          <div class="present">
+            <p class="present__order">Сделайте заказ и получите подарок!</p>
+          </div>
+        </div>
+      </section>
 
-    <main></main>
+      <section class="collection">
+        <div class="container">
+          <div class="clothing">
+            <div class="men">
+              <h2 class="men__heading">
+                МУЖСКАЯ КОЛЛЕКЦИЯ
+              </h2>
+
+              <p class="men__text">Обувь, полуверы, костюмы</p>
+              <button class="men__btn" type="button">
+                <img class="men__img" src="./img/svg/Arrow.svg" alt="Arrow" />
+              </button>
+            </div>
+
+            <div class="photo">
+              <img class="photo__png" src="./img/png/men.png" alt="men" />
+            </div>
+
+            <div class="men last-child">
+              <h2 class="men__heading">ЖЕНСКАЯ КОЛЛЕКЦИЯ</h2>
+              <p class="men__text">Обувь, полуверы, костюмы</p>
+              <button class="men__btn" type="button">
+                <img class="men__img" src="./img/svg/Arrow.svg" alt="Arrow" />
+              </button>
+            </div>
+
+            <div class="photo">
+              <img class="photo__png" src="./img/png/woman.png" alt="woman" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="models">
+      <div class="container">
+<div>
+  <h2>
+    
+  </h2>
+</div>
+      </div>
+    </section>
+
+
 
     <footer></footer>
   </body>

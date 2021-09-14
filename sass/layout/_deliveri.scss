@@ -1,0 +1,36 @@
+.delivery {
+  background-color: $black;
+}
+.conditions {
+}
+.sum {
+  display: flex;
+  justify-content: center;
+  padding:80px 0px 23px ;
+
+  &__heading {
+    color: $white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  &__min {
+    color: $white;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-left: 12px;
+  }
+}
+.present {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 69px;
+  &__order {
+    font-style: 21px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: $white;
+  }
+}

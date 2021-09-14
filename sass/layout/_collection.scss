@@ -1,0 +1,45 @@
+.collection {
+  background-color: $cream;
+}
+
+.clothing {
+  display: flex;
+}
+.men {
+    
+  justify-content: flex-start;
+  padding-bottom: 58px;
+
+  &__heading {
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $black;
+    padding: 60px 0px 25px 0px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: $black;
+    padding-bottom: 40px;
+  }
+
+  &__btn {
+    background-color: $accent;
+    padding: 15px 30px;
+    border: 1px solid $accent;
+     
+  }
+}
+.photo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  &__png {
+  }
+}
+.last-child {
+  margin-left: 35px;
+}
