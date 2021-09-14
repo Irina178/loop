@@ -675,4 +675,111 @@ body {
 }
 .last-child {
   margin-left: 35px;
+}
+
+.models {
+  background-color: #E5E5E5;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 150px 0px 100px;
+}
+.heading__text {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #212121;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+
+.name {
+  margin: 0auto;
+  margin-bottom: 4px;
+}
+.name__text {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #212121;
+  padding-left: 55px;
+}
+.name__price {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #D7B399;
+  padding-left: 80px;
+}
+
+.button-models {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px 0px 152px;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 18px 35px;
+  background-color: #D7B399;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  border: 1px solid #D7B399;
+}
+.button__img {
+  padding-left: 9px;
+  margin-top: 4px;
 }/*# sourceMappingURL=main.css.map */

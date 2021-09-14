@@ -1,0 +1,82 @@
+.models {
+  background-color: $bc;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  padding: 150px 0px 100px;
+  &__text {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: $black;
+  }
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  justify-content: center;
+
+  &__img {
+    display: flex;
+    justify-content: center;
+  }
+}
+.card:not(:last-child) {
+  margin-right: 30px;
+}
+ 
+.photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.name {
+   margin: 0auto;
+  margin-bottom: 4px;
+
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: $black;
+    padding-left: 55px;
+  }
+
+  &__price {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: $accent;
+    padding-left: 80px;
+  }
+}
+
+.button-models {
+   display: flex;
+   justify-content: center;
+   padding: 100px 0px 152px;
+}
+.button {
+   display: flex;
+   justify-content: center;
+   padding: 18px 35px;
+   background-color: $accent;
+   color: $white;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.2;
+   border: 1px solid $accent;
+    
+
+		&__img {
+         padding-left: 9px;
+         margin-top: 4px;
+		}
+}
