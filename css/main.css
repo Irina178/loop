@@ -435,6 +435,145 @@ img {
           flex-direction: column;
 }
 
+.icon {
+  margin-left: 110px;
+}
+
+.footer {
+  background-color: #212121;
+}
+
+.information {
+  padding-top: 80px;
+  margin-right: 125px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.foundation {
+  margin-right: 76px;
+}
+.foundation__heading {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FFFFFF;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.foundation__list {
+  margin-top: 10px;
+}
+.foundation__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.consumer {
+  margin-right: 76px;
+}
+.consumer__heading {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FFFFFF;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.consumer__list {
+  margin-top: 10px;
+}
+.consumer__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.size {
+  margin-right: 53px;
+}
+.size__heading {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FFFFFF;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.size__list {
+  margin-top: 10px;
+}
+.size__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.social__heading {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FFFFFF;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.social__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.magazine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer-end {
+  background-color: #E5E5E5;
+}
+
+.confidentiality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0px 30px;
+}
+.confidentiality__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #212121;
+}
+
 .page-light {
   background-color: #F9F6F1;
 }
@@ -560,6 +699,10 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.icon {
+  margin-left: 110px;
 }
 
 .container {
@@ -778,6 +921,8 @@ body {
   font-weight: 400;
   line-height: 1.2;
   border: 1px solid #D7B399;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 .button__img {
   padding-left: 9px;

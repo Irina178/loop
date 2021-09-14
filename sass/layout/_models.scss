@@ -28,7 +28,7 @@
 .card:not(:last-child) {
   margin-right: 30px;
 }
- 
+
 .photo {
   display: flex;
   justify-content: center;
@@ -36,9 +36,8 @@
 }
 
 .name {
-   margin: 0auto;
+  margin: 0auto;
   margin-bottom: 4px;
-
 
   &__text {
     font-size: 14px;
@@ -59,24 +58,25 @@
 }
 
 .button-models {
-   display: flex;
-   justify-content: center;
-   padding: 100px 0px 152px;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 152px;
 }
 .button {
-   display: flex;
-   justify-content: center;
-   padding: 18px 35px;
-   background-color: $accent;
-   color: $white;
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 1.2;
-   border: 1px solid $accent;
-    
+  display: flex;
+  justify-content: center;
+  padding: 18px 35px;
+  background-color: $accent;
+  color: $white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  border: 1px solid $accent;
+  transition: 0.2s;
 
-		&__img {
-         padding-left: 9px;
-         margin-top: 4px;
-		}
+  &__img {
+    padding-left: 9px;
+    margin-top: 4px;
+  }
 }
+ 

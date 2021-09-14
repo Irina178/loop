@@ -1,0 +1,132 @@
+.footer {
+  background-color: $black;
+}
+
+.information {
+  padding-top: 80px;
+  margin-right: 125px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.foundation {
+  margin-right: 76px;
+  &__heading {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $white;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+   margin-top: 10px
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: $white;
+    ;
+  }
+}
+.consumer {
+  margin-right: 76px;
+  &__heading {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $white;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+   margin-top: 10px;
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: $white;
+    
+  }
+}
+.size {
+  margin-right: 53px;
+  &__heading {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $white;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+   margin-top: 10px;
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: $white;
+   
+  }
+}
+.social {
+  &__heading {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $white;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: $white;
+
+    text-decoration: none;
+    margin-left: 5px;
+  }
+
+  
+}
+.flex {
+  display: flex;
+  padding-bottom: 80px;
+}
+.magazine {
+  display: flex;
+}
+.social__list {
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer-end {
+   background-color:$bc;
+}
+ 
+.confidentiality {
+display: flex;
+justify-content: space-between;
+padding: 30px 0px 30px;
+		&__text {
+         font-size: 14px;
+         font-weight: 400;
+         line-height: 1.2;
+         color: $black;
+		}
+}
